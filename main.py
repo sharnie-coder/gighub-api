@@ -7,11 +7,11 @@ from pydantic import BaseModel, Field
 from typing import Optional, List
 from enum import Enum
 
+
+
 app = FastAPI(
     title="GigHub API",
-    description="API for managing freelance gig listings on GigHub (Nairobi). "
-                 "Admission Number: C027-01-2727/2024",
-    version="1.0.0",
+    description="API for managing freelance gig listings on GigHub (Nairobi)."
 )
 
 # ---------------------------------------------------------------------------
