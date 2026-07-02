@@ -10,11 +10,10 @@ from enum import Enum
 
 
 app = FastAPI(
-    title="GigHub API",
-    description="API for managing freelance gig listings on GigHub (Nairobi)."
-    description="MY REGISTRATION NUMBER IS C027-01-2727/2024. I have 12 gigs in total, and the categories are Marketing, Data, and Consulting. The currency is USD."
+    title="GigHub Nairobi Freelance Gigs API",
+    description="API for managing freelance gig listings on GigHub (Nairobi). C027-01-2727/2024."
+  
 )
-
 # ---------------------------------------------------------------------------
 # Constants (derived from admission number C027-01-2727/2024)
 # ---------------------------------------------------------------------------
